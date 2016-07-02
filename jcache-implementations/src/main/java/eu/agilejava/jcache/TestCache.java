@@ -55,13 +55,16 @@ public class TestCache extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            
+            CacheKey key = new CacheKey(1, request.getParameter("jalla"), 42L);
+            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet TestCache</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet TestCache at " + myStuff.getValue("1") + "</h1>");
+            out.println("<h1>Servlet TestCache at " + myStuff.getValue(key) + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

@@ -30,12 +30,18 @@
             <artifactId>cache-api</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <!--        <dependency>
+        <dependency>
+            <groupId>org.jsr107.ri</groupId>
+            <artifactId>cache-annotations-ri-cdi</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+<!--        <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
             <version>3.6.3</version>
         </dependency>-->
-        <!--        <dependency>
+<!--        <dependency>
             <groupId>org.ehcache</groupId>
             <artifactId>ehcache</artifactId>
             <version>3.0.2</version>
@@ -44,11 +50,6 @@
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-jcache</artifactId>
             <version>8.2.2.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jsr107.ri</groupId>
-            <artifactId>cache-annotations-ri-cdi</artifactId>
-            <version>1.0.0</version>
         </dependency>
         
         

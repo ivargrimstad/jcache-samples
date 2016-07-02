@@ -39,7 +39,7 @@ public class MyStuff {
     
     @Interceptors(CacheResultInterceptor.class)
     @CacheResult
-    public String getValue(final String key) {
+    public String getValue(final CacheKey key) {
         return "a" + counter.incrementAndGet();
     }
 }
