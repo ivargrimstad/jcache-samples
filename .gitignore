@@ -1,0 +1,14 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+<<<<<<< HEAD
+nbactions.xml
+nb-configuration.xml
+=======
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+>>>>>>> 0d5f2459d35c3163ebde986781f391afbe36a998
